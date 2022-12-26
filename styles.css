@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     background-color: #2c2a4a;
     color: white;
+    gap: 8px;
 }
 
 a {
@@ -45,11 +46,16 @@ h3 {
     max-width: 300px;
 }
 
+.main-title p,
+.main-title h1 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
 .title-img {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 300px;
     margin-left: -100px;
 }
 
@@ -65,4 +71,30 @@ h3 {
     border: none;
     padding: 8px 32px;
     background-color: #da8bff;
+    color: #2c2a4a;
+    font-weight: bold;
+}
+
+.information {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.information h2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card img {
+    border: solid;
+    border-radius: 12px;
+    width: 128px;
+    height: 128px;
 }
