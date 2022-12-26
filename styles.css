@@ -36,7 +36,33 @@ h3 {
     justify-content: space-between;
 }
 
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-title {
+    max-width: 300px;
+}
+
+.title-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    margin-left: -100px;
+}
 
 .hero img {
-    width: 300px;
+    display: flex;
+    max-width: 300px;
+    border-radius: 8px;
+
+}
+
+.hero button{
+    border-radius: 8px;
+    border: none;
+    padding: 8px 32px;
+    background-color: #da8bff;
 }
