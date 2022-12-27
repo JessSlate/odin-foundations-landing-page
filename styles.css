@@ -2,7 +2,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: #2c2a4a;
+    background-color: #2c2c4c;
     color: white;
     margin: auto;
     padding: 0;
@@ -12,7 +12,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #da8bff
+    color: #f4d4fc;
 }
 
 ul {
@@ -48,20 +48,19 @@ h3 {
 .testimonial {
     display: flex;
     flex: 1;
-    margin: 16px 0;
-    padding: 0 15%;
+    padding: 24px 15%;
 }
 
 .hero {
     justify-content: space-between;
     align-items: center;
-    gap: 8px;
+    gap: 16px;
 }
 
 .information,
 .call-to-action {
     justify-content: center;
-    background-color: #907AD6;
+    background-color: white;
 }
 
 
@@ -73,13 +72,17 @@ h3 {
 
 
 .main-title {
-    max-width: 300px;
+    min-width: 50%;
 }
 
 .main-title p,
 .main-title h1 {
     margin-top: 8px;
     margin-bottom: 8px;
+}
+
+h1 {
+    font-size: 48px;
 }
 
 
@@ -100,12 +103,13 @@ h3 {
     border-radius: 8px;
     border: none;
     padding: 8px 32px;
-    background-color: #da8bff;
-    color: #2c2a4a;
+    background-color: #ac84fc;
+    color: #2c2c4c;
     font-weight: bold;
 }
 
 .information {
+    color: #2c2c4c;
     display: flex;
     flex-flow: row wrap;
     border: 0;
@@ -128,14 +132,36 @@ h3 {
     flex-direction: column;
 }
 .card p {
-    max-width: 128px;
+    max-width: 134px;
     text-align: center;
 }
 .card img {
     border: solid;
     border-radius: 12px;
+    border-color: #6454f4;
     width: 128px;
     height: 128px;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4d4fc;
+    color: #2c2c4c;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.call-to-action-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #6454f4;
+    padding: 8px 24px;
+    border-radius: 8px;
 }
 
 .footer {

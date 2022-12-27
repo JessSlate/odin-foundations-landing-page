@@ -1,4 +1,4 @@
 # odin-foundations-landing-page
 
 The Odin Project Foundations Corse, landing page project.
-"galaxy" and "star" pngs are my own.
+"galaxy" and astrological sign pngs are my own.
