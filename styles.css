@@ -7,9 +7,9 @@ body {
     margin: auto;
     padding: 0;
     min-width: 800px;
-    height: 100vh;
     
 }
+
 
 p {
     font-size: 18px;
@@ -53,7 +53,10 @@ h3 {
 .testimonial {
     display: flex;
     flex: 1;
+    flex-basis: 25vh;
     padding: 24px 15%;
+
+    justify-content: center;
 }
 
 .hero {
@@ -104,7 +107,7 @@ h1 {
 
 }
 
-.hero button{
+button{
     border-radius: 8px;
     border: none;
     padding: 8px 32px;
@@ -151,6 +154,7 @@ h1 {
 
 .testimonial {
     display: flex;
+    flex: 1;
     flex-direction: column;
     align-items: center;
     background-color: #f4d4fc;
@@ -179,10 +183,27 @@ h1 {
 }
 .call-to-action-box {
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
     background-color: #6454f4;
     padding: 8px 24px;
     border-radius: 8px;
+
+}
+
+.call-to-action-box p {
+    font-size: 16px;
+    margin-top: auto;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: auto;
+}
+
+.call-to-action-button {
+    margin: auto;
 }
 
 .footer {
